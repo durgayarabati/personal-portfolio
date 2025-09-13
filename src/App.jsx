@@ -19,7 +19,7 @@ const Portfolio = () => (
     <Skills />
     <Projects />
     <Contact />
-    <Login />
+    
   </>
 );
 
