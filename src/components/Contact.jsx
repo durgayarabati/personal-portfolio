@@ -31,8 +31,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'prasadyarabati@16gmail.com',
-      href: 'mailto:prasadyarabati@16gmail.com',
+      value: 'prasadyarabati16@gmail.com',
+      href: 'mailto:prasadyarabati16@gmail.com',
       color: 'from-blue-500 to-cyan-600'
     },
     {
