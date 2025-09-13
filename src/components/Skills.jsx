@@ -5,11 +5,16 @@ import {
   Zap, 
   Layers, 
   Database, 
-  GitBranch 
+  GitBranch,
+  Server,
+  Terminal,
+  Cloud
 } from 'lucide-react';
 
+
 const Skills = () => {
-  const skills = [
+
+ const skills = [
     {
       name: 'HTML',
       icon: Code,
@@ -44,6 +49,27 @@ const Skills = () => {
       color: 'from-green-500 to-emerald-600',
       bgColor: 'bg-green-50',
       description: 'NoSQL database management'
+    },
+    {
+      name: 'SQL',
+      icon: Server,
+      color: 'from-indigo-500 to-blue-700',
+      bgColor: 'bg-indigo-50',
+      description: 'Relational databases and queries'
+    },
+    {
+      name: 'Python',
+      icon: Terminal,
+      color: 'from-green-400 to-blue-500',
+      bgColor: 'bg-green-50',
+      description: 'Scripting, automation, and data handling'
+    },
+    {
+      name: 'AWS',
+      icon: Cloud,
+      color: 'from-yellow-500 to-orange-600',
+      bgColor: 'bg-yellow-50',
+      description: 'Cloud infrastructure and deployment'
     },
     {
       name: 'Git',
