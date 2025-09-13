@@ -39,10 +39,17 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <button className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume
-              </button>
+              <a
+                href="https://drive.google.com/file/d/1tEijqJGzZYRGjIsYqu7s_-DmaWbKLn6O/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                  <Download className="mr-2 h-5 w-5" />
+                  Download Resume
+                </button>
+              </a>
+
 
               <button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
@@ -87,7 +94,7 @@ const Hero = () => {
                 <div className="w-72 h-72 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
                   <div className="w-64 h-64 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full overflow-hidden">
                     <img
-                      src={Profilepic} 
+                      src={Profilepic}
                       alt="Durga Prasad"
                       className="w-full h-full object-cover"
                     />
