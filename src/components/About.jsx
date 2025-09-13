@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Heart, Coffee, Code2 } from 'lucide-react';
+import { Users,Briefcase,Cpu } from 'lucide-react';
 
 const About = () => {
   return (
