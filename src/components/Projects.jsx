@@ -4,28 +4,28 @@ import { Github, ExternalLink } from 'lucide-react';
 // Example project data
 const projects = [
   {
-    title: 'Food Delivery Website',
-    image: '/images/projects/food-delivery.jpg',
-    liveLink: 'https://your-live-link.com',
-    githubLink: 'https://github.com/yourusername/food-delivery',
+    title: 'populerr fish feeds-Free lancing project',
+    image: 'https://i.ytimg.com/vi/tCkjPflRgTU/maxresdefault.jpg',
+    liveLink: 'https://fish-feeds-56gq.vercel.app',
+    githubLink: 'https://github.com/durgayarabati',
   },
   {
-    title: 'Portfolio Website',
-    image: '/images/projects/portfolio.jpg',
+    title: 'Portfolio Website - React Js',
+    image: 'https://unsplash.com/photos/macbook-pro-on-black-table-t5SfH5KowBM',
     liveLink: 'https://your-live-link.com',
-    githubLink: 'https://github.com/yourusername/portfolio',
+    githubLink: 'https://github.com/durgayarabati',
   },
   {
-    title: 'E-Commerce App',
-    image: '/images/projects/ecommerce.jpg',
+    title: 'Prasad-connect a video conferencing app',
+    image: 'https://static.vecteezy.com/system/resources/previews/018/977/793/non_2x/ui-ux-template-for-video-conferencing-and-meetings-application-on-desktop-four-users-vector.jpg',
     liveLink: 'https://your-live-link.com',
-    githubLink: 'https://github.com/yourusername/ecommerce',
+    githubLink: 'https://github.com/durgayarabati',
   },
   {
-    title: 'Chat Application',
-    image: '/images/projects/chat-app.jpg',
+    title: 'Chat Application using socket.io in Mern Stack',
+    image: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     liveLink: 'https://your-live-link.com',
-    githubLink: 'https://github.com/yourusername/chat-app',
+    githubLink: 'https://github.com/durgayarabati',
   },
 ];
 
