@@ -1,6 +1,6 @@
 import React from 'react';
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
-
+import Profilepic from '../assets/profile-pic.png';
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
@@ -27,13 +27,13 @@ const Hero = () => {
                 Yarabati Durga Prasad
               </span>
             </h1>
-            
+
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-300 mb-6">
               React JS Developer
             </h2>
-            
+
             <p className="text-lg text-gray-400 mb-8 max-w-2xl">
-              Passionate full-stack developer with expertise in React, JavaScript, and modern web technologies. 
+              Passionate full-stack developer with expertise in React, JavaScript, and modern web technologies.
               I create beautiful, responsive web applications that deliver exceptional user experiences.
             </p>
 
@@ -43,8 +43,8 @@ const Hero = () => {
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
               </button>
-              
-              <button 
+
+              <button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="inline-flex items-center px-6 py-3 border-2 border-blue-400 text-blue-400 font-semibold rounded-lg hover:bg-blue-400 hover:text-white transition-all duration-300 transform hover:scale-105"
               >
@@ -55,23 +55,23 @@ const Hero = () => {
 
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <a 
-                href="https://github.com" 
-                target="_blank" 
+              <a
+                href="https://github.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white/10 backdrop-blur-sm rounded-lg text-white hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
               >
                 <Github className="h-6 w-6" />
               </a>
-              <a 
-                href="https://linkedin.com/in/prasad-yarabati" 
-                target="_blank" 
+              <a
+                href="https://linkedin.com/in/prasad-yarabati"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white/10 backdrop-blur-sm rounded-lg text-white hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a 
+              <a
                 href="mailto:prasadyarabati@16gmail.com"
                 className="p-3 bg-white/10 backdrop-blur-sm rounded-lg text-white hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
               >
@@ -85,12 +85,17 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
                 <div className="w-72 h-72 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                  <div className="w-64 h-64 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full flex items-center justify-center">
-                    <span className="text-6xl font-bold text-gray-600">YDP</span>
+                  <div className="w-64 h-64 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full overflow-hidden">
+                    <img
+                      src={Profilepic} 
+                      alt="Durga Prasad"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
+
                 </div>
               </div>
-              
+
               {/* Floating Elements */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-400 rounded-full animate-bounce"></div>
               <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-green-400 rounded-full animate-pulse"></div>
