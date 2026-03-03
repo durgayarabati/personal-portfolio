@@ -65,7 +65,7 @@ const Hero = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <a
-                href="https://drive.google.com/file/d/1tEijqJGzZYRGjIsYqu7s_-DmaWbKLn6O/view?usp=drive_link"
+                href="https://drive.google.com/file/d/18lSUsQ5k7c0hOENJZVgPR0IToXTIXR87/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
