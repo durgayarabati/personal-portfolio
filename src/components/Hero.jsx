@@ -65,8 +65,8 @@ hover:scale-[1.05] hover:-translate-y-2">
 
           {/* Content */}
           <div className="text-center lg:text-left order-2 lg:order-1">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              <span className="block">Hi, I'm</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-10 mb-6">
+              <span className="block" >Hi, I'm</span>
               <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 Yarabati Durga Prasad
               </span>
